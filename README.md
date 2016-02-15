@@ -1,0 +1,1 @@
+This is a simple JS function that will allow you to search an API through an input field and return an exact match to the name value in the key of the object. There is also a regex statement in the function that requires an alphanumeric input for the field or fields of your choice. The function containes two parameters at this point but you can add or delete accordingly.  
