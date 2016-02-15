@@ -1,6 +1,8 @@
-function uploadMode(uName){
+function uploadMode(uName, uDescription){
 	var nameInput = $('#upload-name').val().toUpperCase();
+	var descriptionInput = $('#upload-desc').val();
 	console.log(uName);
+	console.log(uDescription);
 	if (/[a-zA-Z0-9\s]+$/.test(nameInput) && /[a-zA-Z0-9\s]+$/.test(descriptionInput) == true ){ 	
 	(function(){        
 	    $.ajax({
